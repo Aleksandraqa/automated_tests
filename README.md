@@ -12,5 +12,6 @@ or `mvn clean verify` will do all together.
 3. The feature files are placed at `/<local repository name>/src/main/resources/featuresFile`. Every feature file is consists of one test case.
 4. `TestRunner.java` is placed at `/<local repository name>/src/test/java/testRunner`
 To run the scripts right click TestRunner and run us JUnit Test which will run all 4 test cases.
-5. To change the browser or URL edit the configuration file, location `/<local repository name>/src/test/java/config/config.properties`
+5. To change the browser, URL edit the configuration file, location `/<local repository name>/src/test/java/config/config.properties`
+Make sure to specify the chrome and gecko driver path in the configuration file.
  

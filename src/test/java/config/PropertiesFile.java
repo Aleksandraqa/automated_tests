@@ -23,15 +23,15 @@ public class PropertiesFile {
 		
 		
 		try {
-			InputStream input = new FileInputStream("src\\test\\java\\config\\config.properties");
+			InputStream input = new FileInputStream("src\\test\\java\\config\\config.properties"); 
 			prop.load(input);
 			prop.getProperty("browser");
 			BrowserEnv.browser = prop.getProperty("browser");
 			System.out.println("Browser-" + BrowserEnv.browser);
 			
-//			prop.getProperty("driverPath");
-//			BrowserEnv.driverPath = prop.getProperty("driverPath");
-//			System.out.println(BrowserEnv.driverPath);
+			prop.getProperty("driverPath");
+			BrowserEnv.driverPath = prop.getProperty("driverPath");
+			System.out.println(BrowserEnv.driverPath);
 			
 			prop.getProperty("webUrl");
 			BrowserEnv.webUrl = prop.getProperty("webUrl");

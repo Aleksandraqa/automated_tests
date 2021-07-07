@@ -20,6 +20,7 @@ public class BrowserEnv {
 	public static int DRIVER_WAIT_SECONDS = 10;
 	public static String browser;
 	public static WebDriverWait waitDriver;
+	public static String driverPath;
 	
 		
 	protected static  WebDriver setDriver() {  
@@ -27,7 +28,8 @@ public class BrowserEnv {
 			
 			PropertiesFile.readPropertiesFile();
 			if (browser.toLowerCase().contains("firefox")) {
-				System.setProperty("webdriver.gecko.driver", "../MusalaTestCucumber//geckodriver.exe");
+				System.setProperty("webdriver.gecko.driver", driverPath);
+//				D:\old\Local Disk D\Eclipse_Workspace\MusalaTestCucumber
 				 driver=new FirefoxDriver();  
 				 driver.manage().deleteAllCookies();
 				driver.manage().window().maximize();
@@ -40,7 +42,7 @@ public class BrowserEnv {
 				driver = new InternetExplorerDriver();
 				driver.get(webUrl);
 			} else if (browser.toLowerCase().contains("chrome")) {
-				System.setProperty("webdriver.chrome.driver", "../MusalaTestCucumber//chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", driverPath);
 			    driver = new ChromeDriver();
 			    driver.manage().deleteAllCookies();
 			    driver.manage().window().maximize();
