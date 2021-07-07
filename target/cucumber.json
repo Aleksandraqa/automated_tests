@@ -1,0 +1,950 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Navigate to Contact Us and populate the fields",
+        "description": "",
+        "id": "navigate-to-contact-us-and-populate-the-fields;navigate-to-contact-us-and-populate-the-fields;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22301207500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Scroll down and go to ‘Contact Us’",
+            "match": {
+              "location": "TestCase1.scroll_down_and_go_to_Contact_Us()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4375144000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Fill all required fields \"Test\" \"078 123456\" \"TestMusala\" \"MessageMusala\" except email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 26
+                },
+                {
+                  "val": "078 123456",
+                  "offset": 33
+                },
+                {
+                  "val": "TestMusala",
+                  "offset": 46
+                },
+                {
+                  "val": "MessageMusala",
+                  "offset": 59
+                }
+              ],
+              "location": "TestCase1.fill_all_required_fields_except_email(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1081323700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Under email field enter string with wrong email format \"Test@Test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test@Test",
+                  "offset": 56
+                }
+              ],
+              "location": "TestCase1.under_email_field_enter_string_with_wrong_email_format(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1575078400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Send button",
+            "match": {
+              "location": "TestCase1.click_Send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2336503000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify that error message ‘The e-mail address entered is invalid.’ appears",
+            "match": {
+              "location": "TestCase1.verify_that_error_message_The_e_mail_address_entered_is_invalid_appears()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Navigate to Contact Us and populate the fields",
+        "description": "",
+        "id": "navigate-to-contact-us-and-populate-the-fields;navigate-to-contact-us-and-populate-the-fields;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14428974400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Scroll down and go to ‘Contact Us’",
+            "match": {
+              "location": "TestCase1.scroll_down_and_go_to_Contact_Us()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4383251500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Fill all required fields \"Test\" \"078 123456\" \"TestMusala\" \"MessageMusala\" except email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 26
+                },
+                {
+                  "val": "078 123456",
+                  "offset": 33
+                },
+                {
+                  "val": "TestMusala",
+                  "offset": 46
+                },
+                {
+                  "val": "MessageMusala",
+                  "offset": 59
+                }
+              ],
+              "location": "TestCase1.fill_all_required_fields_except_email(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1077715600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Under email field enter string with wrong email format \"Test@.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test@.com",
+                  "offset": 56
+                }
+              ],
+              "location": "TestCase1.under_email_field_enter_string_with_wrong_email_format(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1594486200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Send button",
+            "match": {
+              "location": "TestCase1.click_Send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2338140100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify that error message ‘The e-mail address entered is invalid.’ appears",
+            "match": {
+              "location": "TestCase1.verify_that_error_message_The_e_mail_address_entered_is_invalid_appears()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Navigate to Contact Us and populate the fields",
+        "description": "",
+        "id": "navigate-to-contact-us-and-populate-the-fields;navigate-to-contact-us-and-populate-the-fields;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14862564500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Scroll down and go to ‘Contact Us’",
+            "match": {
+              "location": "TestCase1.scroll_down_and_go_to_Contact_Us()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4408724000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Fill all required fields \"Test\" \"078 123456\" \"TestMusala\" \"MessageMusala\" except email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 26
+                },
+                {
+                  "val": "078 123456",
+                  "offset": 33
+                },
+                {
+                  "val": "TestMusala",
+                  "offset": 46
+                },
+                {
+                  "val": "MessageMusala",
+                  "offset": 59
+                }
+              ],
+              "location": "TestCase1.fill_all_required_fields_except_email(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1080688700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Under email field enter string with wrong email format \"Test@gmail.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test@gmail.",
+                  "offset": 56
+                }
+              ],
+              "location": "TestCase1.under_email_field_enter_string_with_wrong_email_format(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1594437800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Send button",
+            "match": {
+              "location": "TestCase1.click_Send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2356427700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify that error message ‘The e-mail address entered is invalid.’ appears",
+            "match": {
+              "location": "TestCase1.verify_that_error_message_The_e_mail_address_entered_is_invalid_appears()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Navigate to Contact Us and populate the fields",
+        "description": "",
+        "id": "navigate-to-contact-us-and-populate-the-fields;navigate-to-contact-us-and-populate-the-fields;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14290227600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Scroll down and go to ‘Contact Us’",
+            "match": {
+              "location": "TestCase1.scroll_down_and_go_to_Contact_Us()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4413813800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Fill all required fields \"Test\" \"078 123456\" \"TestMusala\" \"MessageMusala\" except email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 26
+                },
+                {
+                  "val": "078 123456",
+                  "offset": 33
+                },
+                {
+                  "val": "TestMusala",
+                  "offset": 46
+                },
+                {
+                  "val": "MessageMusala",
+                  "offset": 59
+                }
+              ],
+              "location": "TestCase1.fill_all_required_fields_except_email(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1098584400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Under email field enter string with wrong email format \"@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "@gmail.com",
+                  "offset": 56
+                }
+              ],
+              "location": "TestCase1.under_email_field_enter_string_with_wrong_email_format(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1611463000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Send button",
+            "match": {
+              "location": "TestCase1.click_Send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2321281800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify that error message ‘The e-mail address entered is invalid.’ appears",
+            "match": {
+              "location": "TestCase1.verify_that_error_message_The_e_mail_address_entered_is_invalid_appears()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Navigate to Contact Us and populate the fields",
+        "description": "",
+        "id": "navigate-to-contact-us-and-populate-the-fields;navigate-to-contact-us-and-populate-the-fields;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14544445400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Scroll down and go to ‘Contact Us’",
+            "match": {
+              "location": "TestCase1.scroll_down_and_go_to_Contact_Us()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4394742100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Fill all required fields \"Test\" \"078 123456\" \"TestMusala\" \"MessageMusala\" except email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 26
+                },
+                {
+                  "val": "078 123456",
+                  "offset": 33
+                },
+                {
+                  "val": "TestMusala",
+                  "offset": 46
+                },
+                {
+                  "val": "MessageMusala",
+                  "offset": 59
+                }
+              ],
+              "location": "TestCase1.fill_all_required_fields_except_email(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1103969900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Under email field enter string with wrong email format \"Test@Test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test@Test123",
+                  "offset": 56
+                }
+              ],
+              "location": "TestCase1.under_email_field_enter_string_with_wrong_email_format(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1610924700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Send button",
+            "match": {
+              "location": "TestCase1.click_Send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2332112600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify that error message ‘The e-mail address entered is invalid.’ appears",
+            "match": {
+              "location": "TestCase1.verify_that_error_message_The_e_mail_address_entered_is_invalid_appears()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Navigate to Contact Us and populate the fields",
+    "description": "",
+    "id": "navigate-to-contact-us-and-populate-the-fields",
+    "keyword": "Feature",
+    "uri": "Test1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Smoke"
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Navigate to Company page and navigate to Musala facebook page",
+        "description": "",
+        "id": "navigate-to-company-page-and-navigate-to-musala-facebook-page;navigate-to-company-page-and-navigate-to-musala-facebook-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4418541600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click ‘Company’ tap from the top",
+            "match": {
+              "location": "TestCase2.click_Company_tap_from_the_top()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10069516000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify that the correct URL (http://www.musala.com/company/) loads",
+            "match": {
+              "location": "TestCase2.verify_that_the_correct_URL_http_www_musala_com_company_loads()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4228733600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify that there is ‘Leadership’ section",
+            "match": {
+              "location": "TestCase2.verify_that_there_is_Leadership_section()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3193689400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click the Facebook link from the footer",
+            "match": {
+              "location": "TestCase2.click_the_Facebook_link_from_the_footer()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4293042400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify that the correct URL (https://www.facebook.com/MusalaSoft?fref\u003dts) loads and verify if the Musala Soft profile picture appears on the new page",
+            "match": {
+              "location": "TestCase2.verify_that_the_correct_URL_https_www_facebook_com_MusalaSoft_fref_ts_loads_and_verify_if_the_Musala_Soft_profile_picture_appears_on_the_new_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Navigate to Company page and navigate to Musala facebook page",
+    "description": "",
+    "id": "navigate-to-company-page-and-navigate-to-musala-facebook-page",
+    "keyword": "Feature",
+    "uri": "Test2.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Smoke"
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 20,
+        "name": "Navigate toCareers page and ‘Check our open positions\u0027",
+        "description": "",
+        "id": "navigate-tocareers-page-and-‘check-our-open-positions\u0027;navigate-tocareers-page-and-‘check-our-open-positions\u0027;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5201275500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to Careers menu (from the top)",
+            "match": {
+              "location": "TestCase3.navigate_to_Careers_menu_from_the_top()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2540850600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click ‘Check our open positions’ button",
+            "match": {
+              "location": "TestCase3.click_Check_our_open_positions_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1027805100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify that  ‘Join Us’ page is opened (can verify that URL is correct: http://www.musala.com/careers/join-us/",
+            "match": {
+              "location": "TestCase3.verify_that_Join_Us_page_is_opened_can_verify_that_URL_is_correct_http_www_musala_com_careers_join_us()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3420597700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "From the dropdown ‘Select location’ select ‘Anywhere’",
+            "match": {
+              "location": "TestCase3.from_the_dropdown_Select_location_select_Anywhere()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12097001700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Choose open position by name (e.g. Experienced Automation QA Engineer)",
+            "match": {
+              "location": "TestCase3.choose_open_position_by_name_e_g_Experienced_Automation_QA_Engineer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15373615900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify that 4 main sections are shown: General Description, Requirements, Responsibilities, What we offer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 12
+                }
+              ],
+              "location": "TestCase3.verify_that_main_sections_are_shown_General_Description_Requirements_Responsibilities_What_we_offer(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1061389700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify that ‘Apply’ button is present at the bottom",
+            "match": {
+              "location": "TestCase3.verify_that_Apply_button_is_present_at_the_bottom()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92663900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click ‘Apply’ button",
+            "match": {
+              "location": "TestCase3.click_Apply_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26219908000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Prepare a few sets of negative data (e.g. leave required field(s) empty, enter \"test@test\" \"Test\" \"078 123456\" \"../MusalaTestCucumber/Musala.pdf\" e-mail with invalid format etc)",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@test",
+                  "offset": 80
+                },
+                {
+                  "val": "Test",
+                  "offset": 92
+                },
+                {
+                  "val": "078 123456",
+                  "offset": 99
+                },
+                {
+                  "val": "../MusalaTestCucumber/Musala.pdf",
+                  "offset": 112
+                }
+              ],
+              "location": "TestCase3.prepare_a_few_sets_of_negative_data_e_g_leave_required_field_s_empty_enter_e_mail_with_invalid_format_etc(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3351284700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Upload a \"../MusalaTestCucumber/Musala.pdf\" CV document, and click ‘Send’ button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "../MusalaTestCucumber/Musala.pdf",
+                  "offset": 10
+                }
+              ],
+              "location": "TestCase3.upload_a_CV_document_and_click_Send_button(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5542043100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify shown error messages (e.g. The field is required, The e-mail address entered is invalid etc.)",
+            "match": {
+              "location": "TestCase3.verify_shown_error_messages_e_g_The_field_is_required_The_e_mail_address_entered_is_invalid_etc()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Navigate toCareers page and ‘Check our open positions\u0027",
+    "description": "",
+    "id": "navigate-tocareers-page-and-‘check-our-open-positions\u0027",
+    "keyword": "Feature",
+    "uri": "Test3.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@Smoke"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Available positions by City",
+        "description": "",
+        "id": "available-positions-by-city;available-positions-by-city",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9521643300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Go to Careers",
+            "match": {
+              "location": "TestCase4.go_to_Careers()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2284691500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click ‘Check our open positions’",
+            "match": {
+              "location": "TestCase4.click_Check_our_open_positions_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12332204900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Filter the available positions by available cities in the dropdown ‘Select location’ (Sofia)",
+            "match": {
+              "location": "TestCase4.filter_the_available_positions_by_available_cities_in_the_dropdown_Select_location_Sofia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42456430200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Get the open positions by city Sofia",
+            "match": {
+              "location": "TestCase4.get_the_open_positions_by_city_Sofia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12381965900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Filter the available positions by available cities in the dropdown ‘Select location’ (Skopje)",
+            "match": {
+              "location": "TestCase4.filter_the_available_positions_by_available_cities_in_the_dropdown_Select_location_Skopje()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18187986400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Get the open positions by city Skopje",
+            "match": {
+              "location": "TestCase4.get_the_open_positions_by_city_Skopje()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Available positions by City",
+    "description": "",
+    "id": "available-positions-by-city",
+    "keyword": "Feature",
+    "uri": "Test4.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Smoke"
+      }
+    ]
+  }
+]
